@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("./fonts/Raleway-Italic-VariableFont_wght.ttf") format("ttf"),
+           url("./fonts/Raleway-VariableFont_wght.ttf") format("ttf");
+   }
+
+html {
+    margin: 50px;
+    border-style: solid;
+    border-color: black
+}
+
+header {
+    display: flex;
+    flex-direction : row;
+    border-style: solid;
+    border-color: red;
+}
+
+#logo{
+    width: 50%;
+    border-style: solid;
+    border-color:green;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content : flex-end;
+    align-items : flex-start;
+    width: 50%;
+    border-style: solid;
+    border-color:green;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+ol {
+    display: flex;
+    flex-direction : row;
+    list-style: none;
+    justify-content : flex-end;
+    border-style: solid;
+    border-color: red;
+}
+
+li {
+    border-style: solid;
+    border-color:green;
+    color: #0065FC;
+}
+
+div {
+    border-style: solid;
+    border-color:green;
+}
+
+main{
+    border-style: solid;
+    border-color: red;
+}
+
+
