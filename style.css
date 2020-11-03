@@ -1,66 +1,49 @@
 @font-face {
     font-family: "Raleway";
-    src: url("./fonts/Raleway-Italic-VariableFont_wght.ttf") format("ttf"),
-           url("./fonts/Raleway-VariableFont_wght.ttf") format("ttf");
+    src: url("./fonts/Raleway-VariableFont_wght.ttf") format("truetype");
    }
 
 html {
+    font-family: 'Raleway';
     margin: 50px;
-    border-style: solid;
-    border-color: black
 }
 
 header {
     display: flex;
     flex-direction : row;
-    border-style: solid;
-    border-color: red;
 }
 
-#logo{
+figure {
     width: 50%;
-    border-style: solid;
-    border-color:green;
+    margin: 0 0 0 0;
 }
 
-#menu{
+nav {
     display: flex;
     flex-direction: row;
     justify-content : flex-end;
-    align-items : flex-start;
     width: 50%;
-    border-style: solid;
-    border-color:green;
-}
-
-nav{
-    display: flex;
-    flex-direction: row;
 }
 
 ol {
     display: flex;
     flex-direction : row;
     list-style: none;
-    justify-content : flex-end;
-    border-style: solid;
-    border-color: red;
-}
+    margin: 0 0 0 0 ;
+    padding: 0 0 0 0;
+ }
 
 li {
-    border-style: solid;
-    border-color:green;
     color: #0065FC;
+    margin-left: 70px;
 }
 
-div {
-    border-style: solid;
-    border-color:green;
+#newuser {
+    font-weight: bold;
 }
 
 main{
-    border-style: solid;
-    border-color: red;
 }
 
-
+h2 {
+}
