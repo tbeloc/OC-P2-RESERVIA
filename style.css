@@ -43,13 +43,19 @@ li {
 }
 
 main{
+
 }
 
-h2 {
-    margin-bottom: 0;
+#main_search_title {
+    margin-bottom: 16px;
+    font-size: 22px;
 }
 
-#main_search {
+#main_search_paragraphe {
+    margin-bottom: 23px;
+}
+
+#main_searchbar {
     display: flex;
 }
 
@@ -63,6 +69,17 @@ h2 {
     width: 50px;
 }
 
+#main_search_input {
+    /* display: flex;
+    height: 51px; */
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-width: thin;
+    padding-left: 17px;
+    padding-right: 17px;
+    width: 200px;
+}
+
 button {
     background-color: #0065FC;
     border: none;
@@ -70,13 +87,15 @@ button {
     border-bottom-right-radius: 14px 14px;
     color: white;
     font-weight: bold;
+    /* width: 134px; */
     width: 134px;
     height: 51px;
 }
 
 input {
     font-weight: bold;
-    height: 51px;
-    border-color: #F2F2F2;
-    border-style: solid;
+    height: 50px;
+    /* border-color: #F2F2F2;
+    border-style: solid; */
+    border-style: none;
 }
