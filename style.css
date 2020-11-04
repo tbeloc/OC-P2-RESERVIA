@@ -46,4 +46,37 @@ main{
 }
 
 h2 {
+    margin-bottom: 0;
+}
+
+#main_search {
+    display: flex;
+}
+
+#main_search_mapmarker {
+    display: flex;
+    justify-content : center;
+    align-items : center;
+    background-color: #F2F2F2;
+    border-top-left-radius: 14px 14px;
+    border-bottom-left-radius: 14px 14px;
+    width: 50px;
+}
+
+button {
+    background-color: #0065FC;
+    border: none;
+    border-top-right-radius: 14px 14px;
+    border-bottom-right-radius: 14px 14px;
+    color: white;
+    font-weight: bold;
+    width: 134px;
+    height: 51px;
+}
+
+input {
+    font-weight: bold;
+    height: 51px;
+    border-color: #F2F2F2;
+    border-style: solid;
 }
