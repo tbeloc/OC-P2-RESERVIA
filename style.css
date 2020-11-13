@@ -104,6 +104,7 @@ button {
     display: flex;
     font-weight: bold;
     margin-top: 30px;
+    height: 60px;
 }
 
 #main_filter_eco {
