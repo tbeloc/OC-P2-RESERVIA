@@ -180,18 +180,14 @@ i {
     margin-left: 12px;
 }
 
-#main_section_bloc_1 {
-    display: flex;
-
-}
-
 #main_section_hebergements {
     display: flex;
     flex-direction: column;
-    justify-content : flex-end;
     background-color: #F2F2F2;
     width: 865px;
+    height: 625px;
     border-radius: 10px;
+    margin-right: auto;
 }
 
 #main_section_hebergements_title {
@@ -203,6 +199,8 @@ i {
 
 #main_section_bloc_1 {
     margin-top: 37px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #main_section_hebergements_article {
@@ -258,4 +256,100 @@ i {
     margin-left: 30px;
     margin-top: 28px;
     margin-bottom: 35px;
+}
+
+#main_section_populaires {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    width: 420px;
+    border-radius: 10px;
+    align-items: center;
+    height: 625px;
+}
+
+#main_section_populaires_title {
+    margin-top: 35px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#main_section_populaires_title_bloc {
+    display: flex;
+    width: 100%;
+}
+
+#main_section_populaires_title_logo {
+    display: flex;
+    align-items : flex-end;
+    justify-content : flex-end;
+    width: 36%;
+}
+
+#main_section_populaires_title_logologo{
+    color: black;
+}
+
+
+#main_section_populaires_article {
+    display: flex;
+    flex-direction: row;
+    width: 343px;
+    height: 144px;
+    margin-top: 23px;
+    border: 5px solid white;
+    border-radius: 15px;
+    background-color: white;
+}
+
+#main_section_populaires_article_photo {
+    width: 127px;
+    height: 144px;
+    /* height: 114px; */
+    border-radius: 10px 0px 0px 10px;
+    object-fit: cover;
+}
+
+#main_section_populaires_article_p1 {
+    justify-content : flex-start;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    width: 150px;
+    margin-left: 16px;
+}
+
+#main_section_populaires_article_p2 {
+    /* width: 246px; */
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+#main_section_populaires_article_p3 {
+    /* width: 246px; */
+    margin-left: 16px;
+    margin-top: 50px;
+    margin-bottom: 6px;
+}
+
+#main_section_populaires_article_bloc {
+    display: flex;
+    flex-wrap : wrap;
+    justify-content : space-evenly;
+}
+
+#main_section_populaires_footer {
+    width: 246px;
+    margin-left: 30px;
+    margin-top: 28px;
+    margin-bottom: 35px;
+}
+
+#main_section_populaires_article_bloc_1 {
+    /* width: 127px; */
+}
+
+#main_section_populaires_article_bloc_2 {
+
 }
