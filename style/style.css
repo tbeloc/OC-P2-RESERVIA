@@ -1,0 +1,258 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+   }
+
+html {
+    font-family: 'Raleway';
+    margin: 50px;
+}
+
+header {
+    display: flex;
+    flex-direction : row;
+}
+
+figure {
+    width: 50%;
+    margin: 0 0 0 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content : flex-end;
+    width: 50%;
+}
+
+ol {
+    display: flex;
+    flex-direction : row;
+    list-style: none;
+    margin: 0 0 0 0 ;
+    padding: 0 0 0 0;
+ }
+
+li {
+    color: #0065FC;
+    margin-left: 70px;
+}
+
+p {
+    margin: 0;
+}
+
+#newuser {
+    font-weight: bold;
+}
+
+#main_search_title {
+    margin-bottom: 16px;
+    font-size: 22px;
+}
+
+#main_search_paragraphe {
+    margin-bottom: 23px;
+}
+
+#main_searchbar {
+    display: flex;
+}
+
+#main_search_mapmarker {
+    display: flex;
+    justify-content : center;
+    align-items : center;
+    background-color: #F2F2F2;
+    border-top-left-radius: 14px 14px;
+    border-bottom-left-radius: 14px 14px;
+    width: 50px;
+}
+
+#main_search_input {
+    /* display: flex;
+    height: 51px; */
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-width: thin;
+    padding-left: 17px;
+    padding-right: 17px;
+    width: 200px;
+}
+
+input {
+    font-weight: bold;
+    height: 50px;
+    /* border-color: #F2F2F2;
+    border-style: solid; */
+    border-style: none;
+}
+
+button {
+    background-color: #0065FC;
+    border: none;
+    border-top-right-radius: 14px 14px;
+    border-bottom-right-radius: 14px 14px;
+    color: white;
+    font-weight: bold;
+    /* width: 134px; */
+    width: 134px;
+    height: 51px;
+}
+
+
+#main_filter_title{
+    margin-right: 8px;
+}
+
+#main_filter_titlep {
+    font-weight: bold;
+}
+
+#main_filter {
+    display: flex;
+    align-items : center;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 60px;
+}
+
+#main_filter_bloc {
+    display: flex;
+    align-items : center;
+    border-top:#F2F2F2;
+    border-bottom:#F2F2F2;
+    border-right: #F2F2F2;
+    border-style: solid;
+    border-left-style: none;
+    /* border-width: thin; */
+    border-top-right-radius: 30px 30px;
+    border-bottom-right-radius: 30px 30px;
+    border-top-left-radius: 30px 30px;
+    border-bottom-left-radius: 30px 30px;
+    margin-left: 24px;
+    height: 50px;
+}
+
+#main_filter_family{
+    display: flex;
+    align-items : center;
+}
+
+#main_filter_love{
+    display: flex;
+    align-items : center;
+}
+
+#main_filter_animal{
+    display: flex;
+    align-items : center;
+    justify-content : center;
+}
+
+#main_filter_img {
+    display: flex;
+    justify-content : center;
+    align-items : center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+}
+
+i {
+    color: #0065FC;
+}
+
+#main_filter_bloc_title {
+    margin-left: 13px;
+    margin-right: 22px;
+}
+
+#main_info_title {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#main_info_p {
+    margin-left: 12px;
+}
+
+#main_section_bloc_1 {
+    display: flex;
+
+}
+
+#main_section_hebergements {
+    background-color: #F2F2F2;
+    width: 950px;
+    border-radius: 10px;
+}
+
+#main_section_hebergements_title {
+    margin-top: 47px;
+    margin-left: 41px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#main_section_bloc_1 {
+    margin-top: 37px;
+}
+
+#main_section_hebergements_article {
+    display: flex;
+    flex-direction: column;
+    justify-content : center;
+    align-items : center;
+    width: 246px;
+    margin-top: 28px;
+    /* margin-left: 41px; */
+    border: 5px solid white;
+    border-radius: 8px;
+    background-color: white;
+}
+
+img{
+    width: 246px;
+    height: 114px;
+    border-radius: 3px 3px 0px 0px;
+    object-fit: cover;
+}
+
+#main_section_hebergements_article_p1{
+    justify-content : flex-start;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    width: 246px;
+    margin-left: 16px;
+}
+
+#main_section_hebergements_article_p2{
+    width: 246px;
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+#main_section_hebergements_article_p3{
+    width: 246px;
+    margin-left: 16px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#main_section_hebergements_footer{
+    width: 246px;
+    margin-left: 41px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+#main_section_hebergements_article_bloc {
+    display: flex;
+    flex-wrap : wrap;
+	justify-content : space-around;
+}
