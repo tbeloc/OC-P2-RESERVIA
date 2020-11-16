@@ -7,10 +7,9 @@
         <meta name="author" content="Thierry Bellocchi">
         <meta name="description" content="Trouver un hébergement et des activités dans la ville de votre choix">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- <link rel="stylesheet" type="text/css" href="style/reset.css"> -->
         <link rel="stylesheet" type="text/css" href="style/normalize.css">
         <link rel="stylesheet" type="text/css" href="style/style.css">
-        <!-- <link rel="stylesheet" type="text/css" href="grid.css"> -->
+        <link rel="stylesheet" type="text/css" href="style/header.css">
         <script src="https://kit.fontawesome.com/5b7786dca4.js" crossorigin="anonymous"></script>
 
     </head>
@@ -18,17 +17,35 @@
     <body>
 
         <header>
-            <figure>
-                <img src="./images/logo/Reservia.svg">
-            </figure>
-            <nav>
-                <ol>
-                    <li>Hébergements</li>
-                    <li>Activités</li>
-                    <li id="newuser">S'inscrire</li>
-                </ol>
-            </nav>
-        </header>
+            <div id="header_bloc_menu_mobile_1">
+                <figure>
+                    <img src="./images/logo/Reservia.svg">
+                </figure>
+                <nav id="header_nav_menu_desktop">
+                    <ol>
+                        <li id="header_nav_housing">Hébergements</li>
+                        <li id="header_nav_activity">Activités</li>
+                        <li id="header_nav_registration">S'inscrire</li>
+                    </ol>
+                </nav>
+                <nav id="header_nav_menu_mobile">
+                    <ol>
+                        <!-- <li id="header_nav_housing">Hébergements</li>
+                        <li id="header_nav_activity">Activités</li> -->
+                        <li id="header_nav_registration">S'inscrire</li>
+                    </ol>
+                </nav>
+            </div>
+            <div id="header_bloc_menu_mobile_2">
+                <nav id="header_bloc_menu_mobile">
+                    <ol>
+                        <!-- <li id="header_nav_housing">Hébergements</li>
+                        <li id="header_nav_activity">Activités</li> -->
+                        <li id="header_nav_registration">S'inscrire</li>
+                    </ol>
+                </nav>
+            </div>
+           </header>
 
         <main>
 
@@ -124,17 +141,14 @@
                         </div>
                     </article>
                 </section>
-                <section>
-                    <div></div>
-                    <div>
-                        <article></article>
-                    </div>
-                </section>
             </div>
-            <!-- <section></section>
+            <div id="main_section_bloc_2">
+                <section id="main_section_activite">
+                    <p id="main_section_activite_title">Activités à Marseille</p>
+                    <article id="main_section_activite_article"></article>
+                </section>
 
-            <section></section> -->
-
+            </div>
         </main>
 
         <footer></footer>

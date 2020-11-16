@@ -1,0 +1,123 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    html {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 25px;
+        font-size: 62.5%;
+    }
+
+    /* header {
+        display: flex;
+    } */
+
+    figure {
+        width: 50%;
+        margin: 0 0 0 0;
+    }
+
+    ol {
+        display: flex;
+        flex-direction : row;
+        list-style: none;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        /* margin: 0 0 0 0 ; */
+        padding: 0 0 0 0;
+    }
+
+    li {
+        color: #0065FC;
+    }
+
+    #header_bloc_menu_mobile_1 {
+        display: flex;
+    }
+
+    #header_nav_menu_desktop {
+        display: none;
+    }
+
+    #header_nav_menu_mobile {
+        display: flex;
+        justify-content : flex-end;
+        width: 100%;
+    }
+
+    #header_nav_housing {
+
+    }
+
+    #header_nav_activity {
+
+    }
+
+    #header_nav_registration {
+        font-weight: bold;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { */
+@media (min-width: 768px) {
+
+    html {
+        margin: 50px;
+        font-size: 62.5%;
+    }
+
+    header {
+        display: flex;
+        flex-direction : row;
+    }
+
+    figure {
+        width: 50%;
+        margin: 0 0 0 0;
+    }
+
+    #header_nav_menu_desktop {
+        display: flex;
+        justify-content : flex-end;
+        width: 50%;
+    }
+
+    #header_nav_menu_mobile {
+        display: none;
+    }
+
+    #header_bloc_menu_mobile_2 {
+        display: none;
+    }
+
+    #header_bloc_menu_mobile_1 {
+        width: 100%;
+    }
+
+    /* nav {
+        display: flex;
+        flex-direction: row;
+        justify-content : flex-end;
+        width: 50%;
+    } */
+
+    ol {
+        display: flex;
+        flex-direction : row;
+        list-style: none;
+        margin: 0 0 0 0 ;
+        padding: 0 0 0 0;
+    }
+
+    li {
+        color: #0065FC;
+        margin-left: 70px;
+    }
+
+    #header_nav_registration {
+        font-weight: bold;
+    }
+
+}
