@@ -1,29 +1,62 @@
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (min-width: 0px) {
 
     html {
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 25px;
+        /* margin-top: 25px; */
         font-size: 62.5%;
+        /* margin-left: 20px;
+        margin-right: 20px; */
     }
-
-    /* header {
-        display: flex;
-    } */
 
     figure {
         width: 50%;
-        margin: 0 0 0 0;
+        margin: 20px 0 0 20px;
     }
 
-    ol {
+    .link:link {
+        text-decoration: none;
+        color: black;
+        border-bottom: solid;
+        border-color: transparent;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+      }
+
+      .link:visited {
+        text-decoration: none;
+        color: black;
+      }
+
+      .link:hover {
+        display: flex;
+        width: 100%;
+        justify-content : center;
+        text-decoration: none;
+        color: #0065FC;
+        border-bottom: solid;
+        padding-bottom: 15px;
+      }
+
+      .link:active {
+        text-decoration: underline;
+      }
+
+    #header_nav_ol_mobile_2 {
+        display: flex;
+        flex-direction : row;
+        justify-content : space-around;
+        list-style: none;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        padding: 0 0 0 0;
+    }
+
+    #header_nav_ol_mobile_1 {
         display: flex;
         flex-direction : row;
         list-style: none;
         margin-top: 20px;
         margin-bottom: 0px;
-        /* margin: 0 0 0 0 ; */
         padding: 0 0 0 0;
     }
 
@@ -31,7 +64,7 @@
         color: #0065FC;
     }
 
-    #header_bloc_menu_mobile_1 {
+    #header_bloc_menu {
         display: flex;
     }
 
@@ -46,16 +79,26 @@
     }
 
     #header_nav_housing {
-
+        display: flex;
+        width: 100%;
+        justify-content : center;
     }
 
     #header_nav_activity {
-
+        display: flex;
+        width: 100%;
+        justify-content : center;
     }
 
-    #header_nav_registration {
+    #header_nav_registration_mobile {
         font-weight: bold;
+        margin: 20px 20px 0 0;
     }
+
+    link {
+        width: 100%;
+    }
+
 
 }
 
@@ -88,20 +131,13 @@
         display: none;
     }
 
-    #header_bloc_menu_mobile_2 {
+    #header_bloc_menu_mobile {
         display: none;
     }
 
-    #header_bloc_menu_mobile_1 {
+    #header_bloc_menu {
         width: 100%;
     }
-
-    /* nav {
-        display: flex;
-        flex-direction: row;
-        justify-content : flex-end;
-        width: 50%;
-    } */
 
     ol {
         display: flex;
