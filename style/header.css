@@ -2,13 +2,10 @@
 @media (min-width: 0px) {
 
     html {
-        /* margin-top: 25px; */
         font-size: 62.5%;
-        /* margin-left: 20px;
-        margin-right: 20px; */
     }
 
-    figure {
+    #logo {
         width: 50%;
         margin: 20px 0 0 20px;
     }
@@ -60,10 +57,6 @@
         padding: 0 0 0 0;
     }
 
-    li {
-        color: #0065FC;
-    }
-
     #header_bloc_menu {
         display: flex;
     }
@@ -91,15 +84,10 @@
     }
 
     #header_nav_registration_mobile {
+        color: #0065FC;
         font-weight: bold;
         margin: 20px 20px 0 0;
     }
-
-    link {
-        width: 100%;
-    }
-
-
 }
 
 /* Medium devices (tablets, 768px and up) */
