@@ -1,10 +1,6 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 0px) {
 
-    html {
-        font-size: 62.5%;
-    }
-
     #bloc_menu_common {
         display: flex;
     }
@@ -85,24 +81,13 @@
 @media (min-width: 768px) {
 
     html {
-        /* margin: 50px; */
-        font-size: 62.5%;
         margin-left: 50px;
         margin-right: 50px;
     }
 
-    header {
-        display: flex;
-        flex-direction : row;
-        /* margin-top: 20px; */
-    }
-
-    img {
-        padding-top:47px;
-    }
     #logo {
-        width: 50%;
         margin: 0 0 0 0;
+        padding-top:47px;
     }
 
     #menu_desktop {
@@ -111,33 +96,26 @@
         width: 50%;
     }
 
-    #bloc_menu_common {
-        width: 100%;
-    }
-
     ol {
         display: flex;
         flex-direction : row;
         list-style: none;
         margin: 0 0 0 0 ;
-        /* margin: 20px 20px 20px 20px; */
         padding: 0 0 0 0;
-        /* align-items : flex-start; */
     }
 
-    li {
-        color: #0065FC;
-        /* margin-left: 70px; */
-    }
+    #nav_housing_desktop {
+        width: 162px;
+      }
 
-    #header_nav_registration {
-        font-weight: bold;
-    }
-
+    #nav_activity_desktop {
+        width: 151px;
+      }
 
     .link{
         justify-content : flex-end;
     }
+
     .link_desktop:link {
         display: flex;
         justify-content : center;
@@ -168,20 +146,14 @@
         justify-content : flex-end;
       }
 
-    #nav_housing_desktop {
-        width: 162px;
-      }
-
-    #nav_activity_desktop {
-        width: 151px;
-      }
-
     #nav_registration_desktop {
         display: flex;
         justify-content : center;
         align-items : center;
         padding-top: 28px;
         width: 123px;
+        color: #0065FC;
+        font-weight: bold;
     }
 
     #menu_registration_mobile {
