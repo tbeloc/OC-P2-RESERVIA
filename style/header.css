@@ -5,9 +5,49 @@
         font-size: 62.5%;
     }
 
+    ol {
+        list-style: none;
+    }
+
+    #bloc_menu_common {
+        display: flex;
+    }
+
     #logo {
         width: 50%;
         margin: 20px 0 0 20px;
+    }
+
+    #menu_desktop {
+        display: none;
+    }
+
+    #menu_registration_mobile {
+        display: flex;
+        justify-content : flex-end;
+        width: 100%;
+    }
+
+    #nav_registration_mobile {
+        color: #0065FC;
+        font-weight: bold;
+        margin: 20px 20px 0 0;
+    }
+
+    #menu_housing_activity_mobile {
+        display: flex;
+        flex-direction : row;
+        justify-content : space-around;
+        list-style: none;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        padding: 0 0 0 0;
+    }
+
+    .nav_mobile {
+        display: flex;
+        width: 100%;
+        justify-content : center;
     }
 
     .link:link {
@@ -19,12 +59,12 @@
         margin-bottom: 15px;
       }
 
-      .link:visited {
+    .link:visited {
         text-decoration: none;
         color: black;
       }
 
-      .link:hover {
+    .link:hover {
         display: flex;
         width: 100%;
         justify-content : center;
@@ -34,60 +74,10 @@
         padding-bottom: 15px;
       }
 
-      .link:active {
+    .link:active {
         text-decoration: underline;
       }
 
-    #header_nav_ol_mobile_2 {
-        display: flex;
-        flex-direction : row;
-        justify-content : space-around;
-        list-style: none;
-        margin-top: 30px;
-        margin-bottom: 0px;
-        padding: 0 0 0 0;
-    }
-
-    #header_nav_ol_mobile_1 {
-        display: flex;
-        flex-direction : row;
-        list-style: none;
-        margin-top: 20px;
-        margin-bottom: 0px;
-        padding: 0 0 0 0;
-    }
-
-    #header_bloc_menu {
-        display: flex;
-    }
-
-    #header_nav_menu_desktop {
-        display: none;
-    }
-
-    #header_nav_menu_mobile {
-        display: flex;
-        justify-content : flex-end;
-        width: 100%;
-    }
-
-    #header_nav_housing {
-        display: flex;
-        width: 100%;
-        justify-content : center;
-    }
-
-    #header_nav_activity {
-        display: flex;
-        width: 100%;
-        justify-content : center;
-    }
-
-    #header_nav_registration_mobile {
-        color: #0065FC;
-        font-weight: bold;
-        margin: 20px 20px 0 0;
-    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -104,26 +94,27 @@
         flex-direction : row;
     }
 
-    figure {
+    #logo {
         width: 50%;
         margin: 0 0 0 0;
     }
 
-    #header_nav_menu_desktop {
+    #menu_desktop {
         display: flex;
         justify-content : flex-end;
         width: 50%;
     }
 
-    #header_nav_menu_mobile {
+    #menu_registration_mobile {
         display: none;
     }
 
-    #header_bloc_menu_mobile {
+
+    #bloc_menu_mobile {
         display: none;
     }
 
-    #header_bloc_menu {
+    #bloc_menu_common {
         width: 100%;
     }
 
