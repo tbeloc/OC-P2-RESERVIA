@@ -1,7 +1,103 @@
+#search_title {
+    margin-bottom: 16px;
+    font-size: 2.2rem;
+}
+
+#search_paragraphe {
+    margin-bottom: 40px;
+}
+
+#searchbar {
+    display: flex;
+}
+
+#search_mapmarker {
+    display: flex;
+    justify-content : center;
+    align-items : center;
+    background-color: #F2F2F2;
+    border-top-left-radius: 14px 14px;
+    border-bottom-left-radius: 14px 14px;
+}
+
+#search_img {
+    color: black;
+}
+
+#search_input {
+    font-size: 1.8rem;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-width: thin;
+}
+
+input {
+    font-weight: bold;
+    height: 50px;
+    border-style: none;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (min-width: 0px) {
 
+    main {
+        margin-left:20px;
+        margin-right: 20px;
+    }
 
+    #searchbar {
+        justify-content : center;
+    }
+
+    #search {
+        font-size: 2.2rem;
+    }
+
+    #search_mapmarker {
+        width: 50px;
+    }
+
+    #search_input {
+        border-right: none;
+    } 
+
+    input {
+        width: 230px;
+    }
+
+    button {
+        background-color: #0065FC;
+        border: none;
+        color: white;
+        font-size: 1.6rem;
+        font-weight: bold;
+        width: 55px;
+        height: 51px;
+        border-top-left-radius: 14px;
+        border-bottom-left-radius: 14px;
+        border-top-right-radius: 14px;
+        border-bottom-right-radius: 14px;
+    }
+
+    #search_button_desktop {
+        display: none;
+    }
+
+    #search_button_mobile {
+        display: flex;
+        border: #F2F2F2 solid;
+        border-width: thin;
+        border-left: none;
+        border-top-right-radius: 14px;
+        border-bottom-right-radius: 14px;
+    }
+
+    #search_img_mobile {
+        color: white;
+    }
 
 }
 
@@ -9,6 +105,38 @@
 /* @media (min-width: 768px) { */
 @media (min-width: 768px) {
 
+    main {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
+    #searchbar {
+        justify-content : flex-start;
+    }
+
+    #search_mapmarker {
+        width: 50px;
+    }
+
+    input {
+        width: 240px;
+    }
+
+    button {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 14px;
+        border-bottom-right-radius: 14px;
+        width: 134px;
+        height: 51px;
+    }
+
+    #search_button_desktop {
+        display: flex;
+    }
+
+    #search_button_mobile {
+        display: none;
+    }
 
 }

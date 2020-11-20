@@ -17,60 +17,8 @@ li {
     font-size: 1.6rem;
 }
 
-#main_search_title {
-    margin-bottom: 16px;
-    font-size: 22px;
-}
 
-#main_search_paragraphe {
-    margin-bottom: 23px;
-}
 
-#main_searchbar {
-    display: flex;
-}
-
-#main_search_mapmarker {
-    display: flex;
-    justify-content : center;
-    align-items : center;
-    background-color: #F2F2F2;
-    border-top-left-radius: 14px 14px;
-    border-bottom-left-radius: 14px 14px;
-    width: 50px;
-}
-
-#main_search_input {
-    /* display: flex;
-    height: 51px; */
-    border-color: #F2F2F2;
-    border-style: solid;
-    border-width: thin;
-    padding-left: 17px;
-    padding-right: 17px;
-    width: 200px;
-}
-
-input {
-    font-weight: bold;
-    height: 50px;
-    /* border-color: #F2F2F2;
-    border-style: solid; */
-    border-style: none;
-}
-
-button {
-    background-color: #0065FC;
-    border: none;
-    border-top-right-radius: 14px 14px;
-    border-bottom-right-radius: 14px 14px;
-    color: white;
-    font-size: 1.6rem;
-    font-weight: bold;
-    /* width: 134px; */
-    width: 134px;
-    height: 51px;
-}
 
 
 #main_filter_title{
