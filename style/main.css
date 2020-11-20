@@ -9,6 +9,7 @@
 
 #searchbar {
     display: flex;
+    justify-content : flex-start;
 }
 
 #search {
@@ -63,10 +64,6 @@ button {
         margin-right: 20px;
     }
 
-    #searchbar {
-        justify-content : center;
-    }
-
     #search_input {
         border-right: none;
     }
@@ -109,10 +106,6 @@ button {
     main {
         margin-left: 0px;
         margin-right: 0px;
-    }
-
-    #searchbar {
-        justify-content : flex-start;
     }
 
     input {
