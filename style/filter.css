@@ -38,8 +38,43 @@
     font-weight: bold;
 }
 
+#main_info_title {
+    display: flex;
+    margin-top: 34px;
+    /* margin-left: 10px; */
+    justify-content: center;
+    align-items: center;
+}
+
+#main_info_p {
+    margin-left: 12px;
+}
+
+#title_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    background:white;
+    border-radius:50%;
+    width:30px;
+    height:22px;
+    border:2px solid #F2F2F2; 
+}
+
+#main_info_title i {
+    /* align-self : center;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    border: #F2F2F2 solid;
+    border-width: thin; */
+    /* border: red solid; */
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 0px) {
+/* Add max-width: ; */
 
     #filter {
         margin-top:40px;
