@@ -20,6 +20,14 @@
     margin-bottom: 10px;
 }
 
+#filter_bloc {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
 .filter_img {
     display: flex;
     justify-content : center;
@@ -38,63 +46,41 @@
     font-weight: bold;
 }
 
-#main_info_title {
+#info {
     display: flex;
     margin-top: 34px;
-    /* margin-left: 10px; */
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
 }
 
-#main_info_p {
+#info_p {
     margin-left: 12px;
 }
 
-#title_info {
+#info_title {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #0065FC;
     background:white;
-    border-radius:50%;
+    border-radius:14px;
     width:30px;
     height:22px;
-    border:2px solid #F2F2F2; 
+    border:2px solid #F2F2F2;
 }
 
-#main_info_title i {
-    /* align-self : center;
-    color: white;
-    background-color: black;
-    border-radius: 15px;
-    border: #F2F2F2 solid;
-    border-width: thin; */
-    /* border: red solid; */
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 0px) {
-/* Add max-width: ; */
+/* Mobile devices */
+@media (max-width: 767px) {
 
     #filter {
         margin-top:40px;
     }
 
     #filter_title_mobile{
-        /* display: flex; */
         margin-bottom: 18px;
     }
 
     #filter_title_desktop{
         display: none;
-    }
-
-    #filter_bloc {
-        display: flex;
-        /* flex-direction: row; */
-        justify-content: flex-start;
-        align-items: center;
-        flex-wrap: wrap;
     }
 
     .filter_type {
@@ -106,10 +92,13 @@
         margin-right: 11px;
     }
 
+    #info_title {
+        width:30px;
+    }
+
 }
 
-/* Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) { */
+/* Desktop devices */
 @media (min-width: 768px) {
 
     #filter {
@@ -138,6 +127,14 @@
     #filter_bloc_title {
         margin-left: 13px;
         margin-right: 22px;
+    }
+
+    #info_title {
+        width:22px;
+    }
+
+    #info_p {
+        align-self: center;
     }
 
 }

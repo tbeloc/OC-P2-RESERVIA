@@ -1,9 +1,9 @@
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 0px) {
+#bloc_menu_common {
+    display: flex;
+}
 
-    #bloc_menu_common {
-        display: flex;
-    }
+/* Mobile devices */
+@media (max-width: 767px) {
 
     #logo {
         width: 50%;
@@ -76,8 +76,7 @@
 
 }
 
-/* Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) { */
+/* Desktop devices */
 @media (min-width: 768px) {
 
     html {
@@ -93,7 +92,7 @@
     #menu_desktop {
         display: flex;
         justify-content : flex-end;
-        width: 50%;
+        width: 100%;
     }
 
     ol {

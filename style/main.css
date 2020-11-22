@@ -56,8 +56,8 @@ button {
     border-bottom-right-radius: 14px;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 0px) {
+/* Mobile devices */
+@media (max-width: 767px) {
 
     main {
         margin-left:20px;
@@ -99,8 +99,7 @@ button {
 
 }
 
-/* Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) { */
+/* Desktop devices */
 @media (min-width: 768px) {
 
     main {
