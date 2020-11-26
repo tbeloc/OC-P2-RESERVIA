@@ -38,3 +38,10 @@ li {
     font-weight: bold;
     font-size: 22px;
 }
+
+@media (min-width: 768px) {
+    html{
+        display: flex;
+        justify-content: center;
+    }
+}

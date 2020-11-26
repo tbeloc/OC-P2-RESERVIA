@@ -47,6 +47,7 @@
     display: flex;
     /* margin-top: 3.4rem; */
     justify-content: flex-start;
+    /* margin-top: 3.7rem; */
 }
 
 #info_p {
@@ -70,7 +71,7 @@
 
     #info {
         padding: 2rem;
-    }    
+    }
 
     #filter {
         /* margin-top:4rem; */
