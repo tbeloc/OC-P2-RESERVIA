@@ -51,7 +51,7 @@ li {
 /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     html{
-        font-size: 95.5%;
+        font-size: 98.5%;
     }
 }
 
