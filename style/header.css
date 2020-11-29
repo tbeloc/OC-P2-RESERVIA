@@ -3,13 +3,17 @@
     justify-content: space-between;
 }
 
+#logo_img {
+    width: 9.7rem;
+    height: 4.5rem;
+}
+
 /* Smartphone */
 @media screen and (min-width: 0px) and (max-width: 767px) {
     #bloc_menu_common {
         display: flex;
-        /* justify-content: space-between; */
         align-items: center;
-        padding: 2rem;
+        margin: 2rem;
     }
 
     #bloc_menu_common figure {
@@ -88,9 +92,8 @@
 @media screen and (min-width: 768px) and (max-width: 991px) {
     #bloc_menu_common {
         display: flex;
-        /* justify-content: space-between; */
         align-items: center;
-        padding: 2rem;
+        margin: 2rem;
     }
 
     #bloc_menu_common figure {
@@ -162,6 +165,7 @@
     .link_mobile:active {
         text-decoration: underline;
       }
+
 }
 
 /* Laptop */
@@ -182,8 +186,6 @@
 
     #menu_desktop {
         display: flex;
-        /* justify-content : flex-end;
-        width: 100%; */
     }
 
     ol {

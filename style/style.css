@@ -44,5 +44,19 @@ li {
     html{
         display: flex;
         justify-content: center;
+        font-size: 62.5%;
     }
 }
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    html{
+        font-size: 95.5%;
+    }
+}
+
+/* Laptop / Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/* Laptop / Desktop  Big */
+@media screen and (min-width: 1200px)

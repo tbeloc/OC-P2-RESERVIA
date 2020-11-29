@@ -3,9 +3,9 @@
     font-size: 2.2rem;
 }
 
-#search_paragraphe {
-    margin-bottom: 2.5rem;
-}
+/* #search_paragraphe {
+    margin-bottom: 2rem;
+} */
 
 #searchbar {
     display: flex;
@@ -21,9 +21,9 @@
     justify-content : center;
     align-items : center;
     background-color: #F2F2F2;
-    border-top-left-radius: 14px 14px;
-    border-bottom-left-radius: 14px 14px;
-    width: 50px;
+    border-top-left-radius: 1.4rem 1.4rem;
+    border-bottom-left-radius: 1.4rem 1.4rem;
+    width: 5rem;
 }
 
 #search_img {
@@ -39,11 +39,11 @@
 
 input {
     font-weight: bold;
-    height: 50px;
+    height: 5rem;
     border-style: none;
     outline: none;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 button {
@@ -52,8 +52,8 @@ button {
     color: white;
     font-size: 1.6rem;
     font-weight: bold;
-    border-top-right-radius: 14px;
-    border-bottom-right-radius: 14px;
+    border-top-right-radius: 1.4rem;
+    border-bottom-right-radius: 1.4rem;
 }
 
 /* Smartphone */
@@ -69,23 +69,30 @@ button {
     }
 
     input {
-        width: 230px;
+        width: 23rem;
     }
 
     button {
-        width: 55px;
-        height: 51px;
-        border-top-left-radius: 14px;
-        border-bottom-left-radius: 14px;
+        width: 5.5rem;
+        height: 5.1rem;
+        border-top-left-radius: 1.4rem;
+        border-bottom-left-radius: 1.4rem;
 
     }
 
     #searchbar {
-        padding: 2rem;
+        /* padding: 2rem; */
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
     }
 
     #search_bloc {
-        padding: 2rem;
+        /* padding: 2rem; */
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
     }
 
     #search_button_desktop {
@@ -119,23 +126,19 @@ button {
         margin-right: 2rem; */
     }
 
-    .main_blok {
-        width: 40rem;
-    }
-
     #search_input {
         border-right: none;
     }
 
     input {
-        width: 230px;
+        width: 23rem;
     }
 
     button {
-        width: 55px;
-        height: 51px;
-        border-top-left-radius: 14px;
-        border-bottom-left-radius: 14px;
+        width: 5.5rem;
+        height: 5.1rem;
+        border-top-left-radius: 1.4rem;
+        border-bottom-left-radius: 1.4rem;
 
     }
 
@@ -168,14 +171,15 @@ button {
         margin-top: 0px;
     }
 
+
 }
 
 /* Laptop / Desktop  Big */
 @media screen and (min-width: 1440px){
 
     main {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     input {
