@@ -3,9 +3,8 @@
     justify-content: space-between;
 }
 
-/* Mobile devices */
-@media (max-width: 767px) {
-
+/* Smartphone */
+@media screen and (min-width: 0px) and (max-width: 767px) {
     #bloc_menu_common {
         display: flex;
         /* justify-content: space-between; */
@@ -85,11 +84,20 @@
 
 }
 
-/* Mobile devices
-@media (max-width: 767px) {
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #bloc_menu_common {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        padding: 2rem;
+    }
+
+    #bloc_menu_common figure {
+        margin: 0;
+    }
 
     #logo {
-        width: 50%;
         margin: 2rem 0 0 2rem;
     }
 
@@ -97,10 +105,10 @@
         display: none;
     }
 
-    #menu_registration_mobile {
-        display: flex;
-        justify-content : flex-end;
-        width: 100%;
+    #menu_registration_mobile ol {
+        padding-left: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
     }
 
     ol {
@@ -110,7 +118,6 @@
     #nav_registration_mobile {
         color: #0065FC;
         font-weight: bold;
-        margin: 20px 20px 0 0;
     }
 
     #menu_housing_activity_mobile {
@@ -118,14 +125,13 @@
         flex-direction : row;
         justify-content : space-around;
         list-style: none;
-        margin-top: 30px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
         padding: 0 0 0 0;
     }
 
     .nav_mobile {
         display: flex;
-        width: 100%;
+        width: 18.75rem;
         justify-content : center;
     }
 
@@ -134,8 +140,8 @@
         color: black;
         border-bottom: solid;
         border-color: transparent;
-        padding-bottom: 15px;
-        margin-bottom: 15px;
+        padding-bottom: 1.5rem;
+        margin-bottom: 1.5rem;
       }
 
     .link_mobile:visited {
@@ -145,22 +151,24 @@
 
     .link_mobile:hover {
         display: flex;
-        width: 100%;
+        width: 18.75rem;
         justify-content : center;
         text-decoration: none;
         color: #0065FC;
         border-bottom: solid;
-        padding-bottom: 15px;
+        padding-bottom: 1.5rem;
       }
 
     .link_mobile:active {
         text-decoration: underline;
       }
+}
 
-}*/
+/* Laptop */
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
 
-/* Desktop devices */
-@media (min-width: 768px) {
+/* Desktop */
+@media screen and (min-width: 1440px){
 
     html {
         margin-left: 5rem;

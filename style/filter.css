@@ -66,8 +66,8 @@
     border:0.2rem solid #F2F2F2;
 }
 
-/* Mobile devices */
-@media (max-width: 767px) {
+/* Smartphone */
+@media screen and (min-width: 0px) and (max-width: 767px) {
 
     #info {
         padding: 2rem;
@@ -101,8 +101,41 @@
 
 }
 
-/* Desktop devices */
-@media (min-width: 768px) {
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #info {
+        padding: 2rem;
+    }
+
+    #filter {
+        /* margin-top:4rem; */
+        padding: 2rem;
+    }
+
+    #filter_title_mobile{
+        margin-bottom: 1.8rem;
+    }
+
+    #filter_title_desktop{
+        display: none;
+    }
+
+    .filter_type {
+        margin-right: 1rem;
+    }
+
+    #filter_bloc_title {
+        margin-left: 0.9rem;
+        margin-right: 1.1rem;
+    }
+
+    #info_title {
+        width:3rem;
+    }
+}
+
+/* Laptop / Desktop  Big */
+@media screen and (min-width: 1440px){
 
     #filter {
         margin-top: 0;

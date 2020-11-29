@@ -39,7 +39,8 @@ li {
     font-size: 22px;
 }
 
-@media (min-width: 768px) {
+/* Smartphone */
+@media screen and (min-width: 0px) and (max-width: 767px) {
     html{
         display: flex;
         justify-content: center;
