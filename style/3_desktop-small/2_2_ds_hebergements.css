@@ -26,7 +26,9 @@
     #main_section_bloc_1 {
         margin-top: 3.7rem;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         /* width: 134rem; */
     }
 

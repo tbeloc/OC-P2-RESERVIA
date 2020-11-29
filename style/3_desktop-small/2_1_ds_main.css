@@ -1,6 +1,10 @@
 /* Laptop */
 @media screen and (min-width: 992px) and (max-width: 1199px){
 
+.main_blok {
+    margin-top: 4rem;
+}
+
 #info_title i {
     height: 3rem;
     width: 3rem;
@@ -57,7 +61,7 @@
 
 #info {
     display: flex;
-    /* margin-top: 3.4rem; */
+    margin-top: 2.7rem;
     justify-content: flex-start;
     /* margin-top: 3.7rem; */
 }
@@ -102,8 +106,8 @@
     }
 
     #filter_bloc_title {
-        margin-left: 1.3rem;
-        margin-right: 2.2rem;
+        margin-left: 0.9rem;
+        margin-right: 0.9rem;
     }
 
     #info_title {
@@ -126,6 +130,7 @@
     #searchbar {
         display: flex;
         justify-content : flex-start;
+        margin-top: 2rem;
     }
 
     #search {

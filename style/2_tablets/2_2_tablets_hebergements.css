@@ -9,8 +9,8 @@
         align-items: center;
     }
 
-    .hebergement_title_bloc{
-
+    .hebergements_title_bloc{
+        width: 33.5rem;
     }
 
     #hebergements_title {
