@@ -24,9 +24,9 @@
     }
 
     #main_section_bloc_1 {
-        margin-top: 3.7rem;
+        margin-top: 0.7rem;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         /* width: 134rem; */
@@ -81,11 +81,11 @@
         width: 88rem;
     }
 
-    #hebergements_footer{
+    #hebergements_footer {
         /* width: 100%; */
         margin-left: 3rem;
         /* margin-top: 3.7%;
-        margin-bottom: 3.7%; */
+        */ margin-bottom: 3rem;
         margin-top: 4rem;
     }
 }
