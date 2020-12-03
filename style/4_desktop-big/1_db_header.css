@@ -1,5 +1,5 @@
 /* Laptop */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
 
     header{
         display: flex;
@@ -9,7 +9,7 @@
     #bloc_menu_common {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        /* align-items: center; */
         width: 133rem;
     }
 
@@ -20,6 +20,7 @@
     #logo_img {
         width: 9.7rem;
         height: 4.5rem;
+        padding-top: 3rem;
     }
 
     html {
