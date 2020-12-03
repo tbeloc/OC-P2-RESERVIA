@@ -5,7 +5,7 @@
 
 html {
     font-family: 'Raleway';
-    font-size: 62.5%;
+
 }
 
 p {
@@ -56,4 +56,15 @@ li {
 }
 
 /* Laptop / Desktop  */
-@media screen and (min-width: 992px) and (max-width: 1199px) {}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    html{
+        font-size: 62.5%;
+    }
+}
+
+/* Laptop / Desktop  */
+@media screen and (min-width: 1200px) {
+    html{
+        font-size: 52.5%;
+    }
+}

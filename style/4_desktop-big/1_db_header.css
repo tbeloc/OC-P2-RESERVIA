@@ -1,8 +1,20 @@
 /* Laptop */
 @media screen and (min-width: 1200px) {
+
+    header{
+        display: flex;
+        justify-content: center;
+    }
+
     #bloc_menu_common {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        width: 133rem;
+    }
+
+    figure {
+        margin: 0;
     }
 
     #logo_img {
@@ -74,12 +86,14 @@
         justify-content : flex-end;
       }
 
-    #nav_registration_desktop {
+      #nav_registration_desktop {
         display: flex;
-        justify-content : center;
+        justify-content : flex-end;
         align-items : center;
-        padding-top: 2.8rem;
-        width: 12.3rem;
+        /* padding-top: 2.8rem;
+        width: 15.1rem; */
+        padding-top: 5rem;
+        padding-left: 3rem;
         color: #0065FC;
         font-weight: bold;
     }
