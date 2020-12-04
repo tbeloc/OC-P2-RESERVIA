@@ -47,6 +47,7 @@
     border-radius: 1.5rem;
     background-color: white;
     box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
+    cursor: pointer;
   }
 
   #populaires_article_photo {

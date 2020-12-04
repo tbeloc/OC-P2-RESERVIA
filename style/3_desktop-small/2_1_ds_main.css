@@ -1,206 +1,30 @@
 /* Laptop */
 @media screen and (min-width: 992px) and (max-width: 1439px) {
+  .sub_container_main {
+    width: 88rem;
+  }
 
-    .main_blok {
-        margin-top: 4rem;
-        width: 88rem;
-    }
+  .searchbar {
+    margin-top: 2rem;
+  }
 
-#info_title i {
-    height: 3rem;
-    width: 3rem;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-   }
-
-#filter_titlep {
-    font-weight: bold;
-}
-
-.filter_type {
-    display: flex;
-    align-items : center;
-    border-top:#F2F2F2;
-    border-bottom:#F2F2F2;
-    border-right: #F2F2F2;
-    border-style: solid;
-    border-left-style: none;
-    border-radius: 3rem;
-    height: 5rem;
-    /* margin-top: 1rem;
-    margin-bottom: 1rem; */
-    margin-top: 0.7rem;
-    margin-bottom: 0.7rem;
+  .filter_type {
     margin-right: 1.4rem;
-}
+  }
 
-#filter_bloc {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-
-.filter_img {
-    display: flex;
-    justify-content : center;
-    align-items : center;
-    width: 5.6rem;
-    height: 5.6rem;
-    border-radius: 2.8rem;
-    background-color: #DEEBFF;
-}
-
-.filter_img i {
-    color: #0065FC;
-}
-
-#filter_bloc_title {
-    font-weight: bold;
-}
-
-#info {
-    display: flex;
+  .info {
     margin-top: 2.7rem;
-    justify-content: flex-start;
-    /* margin-top: 3.7rem; */
-}
+  }
 
-#info_p {
-    margin-left: 1.2rem
-}
+  .filter_bloc_title {
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+  }
 
-#info_title {
+  main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #0065FC;
-    background:white;
-    border-radius:1.4rem;
-    width:2rem;
-    height:2rem;
-    border:0.2rem solid #F2F2F2;
-}
-
-    #filter {
-        margin-top: 0;
-    }
-
-    #filter_title_mobile{
-        display: none;
-    }
-
-    #filter_bloc {
-        margin-top: 3rem;
-    }
-
-    #filter_title_desktop{
-        display: flex;
-        justify-content: flex-start;
-        align-items : center;
-        margin-right: 4.8rem;
-    }
-
-    #filter_bloc_title {
-        margin-left: 0.9rem;
-        margin-right: 0.9rem;
-    }
-
-    #info_title {
-        width:2.2rem;
-    }
-
-    #info_p {
-        align-self: center;
-    }
-
-    #search_title {
-        margin-bottom: 1.6rem;
-        font-size: 2.2rem;
-    }
-
-    /* #search_paragraphe {
-        margin-bottom: 2rem;
-
-    } */
-    #searchbar {
-        display: flex;
-        justify-content : flex-start;
-        margin-top: 2rem;
-    }
-
-    #search {
-        font-size: 2.2rem;
-    }
-
-    #search_mapmarker {
-        display: flex;
-        justify-content : center;
-        align-items : center;
-        background-color: #F2F2F2;
-        border-top-left-radius: 1.4rem 1.4rem;
-        border-bottom-left-radius: 1.4rem 1.4rem;
-        width: 5rem;
-    }
-
-    #search_img {
-        color: black;
-    }
-
-    #search_input {
-        font-size: 1.8rem;
-        border-color: #F2F2F2;
-        border-style: solid;
-        border-width: thin;
-    }
-
-    input {
-        font-weight: bold;
-        height: 5rem;
-        border-style: none;
-        outline: none;
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
-    button {
-        background-color: #0065FC;
-        border: none;
-        color: white;
-        font-size: 1.6rem;
-        font-weight: bold;
-        border-top-right-radius: 1.4rem;
-        border-bottom-right-radius: 1.4rem;
-    }
-
-    main {
-        /*! margin-left: auto; */
-        /*! margin-right: auto; */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    input {
-        width: 100%;
-    }
-
-    button {
-        width: 134px;
-        height: 51px;
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-    }
-
-    #search_button_desktop {
-        display: flex;
-    }
-
-    #search_button_mobile {
-        display: none;
-    }
-
+  }
 }

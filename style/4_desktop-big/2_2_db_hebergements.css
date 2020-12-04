@@ -43,7 +43,7 @@
     width: 133rem;
   }
 
-  #hebergements_article {
+  .hebergements_article {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,6 +54,7 @@
     border-radius: 1.5rem;
     background-color: white;
     box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
+    cursor: pointer;
   }
 
   #hebergements_article_photo {

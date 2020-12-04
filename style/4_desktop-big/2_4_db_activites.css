@@ -86,33 +86,39 @@
     /* margin-right: 4rem; */
   }
 
-  #activite_article_big {
+  .activite_article_big {
     height: 45rem;
     box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
     border-radius: 1rem 1rem 1rem 1rem;
+    cursor: pointer;
   }
 
-  #activite_article_small_1 {
+  .activite_article_small_1 {
     height: 23.5rem;
     box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
     border-radius: 1rem 1rem 1rem 1rem;
+    cursor: pointer;
   }
 
-  #activite_article_small_2 {
+  .activite_article_small_2 {
     height: 16rem;
     box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
     border-radius: 1rem 1rem 1rem 1rem;
-  }
-  #activite_article_small_3 {
-    height: 20rem;
-    box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
-    border-radius: 1rem 1rem 1rem 1rem;
+    cursor: pointer;
   }
 
-  #activite_article_small_4 {
+  .activite_article_small_3 {
     height: 20rem;
     box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
     border-radius: 1rem 1rem 1rem 1rem;
+    cursor: pointer;
+  }
+
+  .activite_article_small_4 {
+    height: 20rem;
+    box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
+    border-radius: 1rem 1rem 1rem 1rem;
+    cursor: pointer;
   }
 
   #activite_article > div:nth-child(2) {
