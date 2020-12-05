@@ -202,6 +202,66 @@ button {
   color: #0065fc;
 }
 
+/* Populaires */
+
+.populaires {
+  background-color: #f2f2f2;
+}
+
+.populaires_title_bloc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.populaires_title {
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.populaires_title_logo {
+  display: flex;
+  align-items: flex-end;
+}
+
+.populaires_title_logologo {
+  color: black;
+}
+
+.populaires_article_bloc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.populaires_article {
+  display: flex;
+  border: 0.5rem solid white;
+  border-radius: 1.5rem;
+  background-color: white;
+}
+
+.populaires_article_photo {
+  object-fit: cover;
+}
+
+.populaires_article_bloc_2 {
+  margin-left: 1.6rem;
+}
+
+.populaires_article_p1 {
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  font-weight: bold;
+}
+
+.populaires_article_p2 {
+  font-size: 1.4rem;
+}
+
+.populaires_article_p3 i {
+  color: #0065fc;
+}
+
 /*  Smartphone & Tablets */
 
 @media screen and (min-width: 0px) and (max-width: 991px) {
@@ -379,6 +439,44 @@ button {
 
   .hebergements_footer {
     margin-top: 2.8rem;
+  }
+
+  /* Populaires */
+
+  .populaires {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    align-items: center;
+    padding-top: 4.7rem;
+    padding-bottom: 3.7rem;
+  }
+
+  .populaires_title_bloc {
+    width: 33.5rem;
+  }
+
+  .populaires_article {
+    height: 13.4rem;
+    margin-top: 2.3rem;
+  }
+
+  .populaires_article_photo {
+    width: 12.7rem;
+    height: 13.4rem;
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  .populaires_article_bloc_2 b {
+    font-weight: normal;
+  }
+
+  .populaires_article_p1 {
+    width: 15rem;
+  }
+
+  .populaires_article_p3 {
+    margin-top: 4.5rem;
   }
 }
 
@@ -566,6 +664,12 @@ button {
     margin-left: 3rem;
     margin-bottom: 3rem;
     margin-top: 4rem;
+  }
+
+  /* Populaires */
+
+  .populaires_article_bloc_2 b {
+    font-weight: normal;
   }
 }
 
