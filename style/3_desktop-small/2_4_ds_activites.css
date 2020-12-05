@@ -1,14 +1,16 @@
-/* Laptop / Desktop  Big */
-@media screen and (min-width: 1440px) {
+/* Laptop / Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1439px) {
   #main_section_bloc_2 {
     display: flex;
-    width: 133rem;
+    width: 88rem;
     flex-direction: column;
+    justify-content: center;
     margin-top: 8rem;
     margin-bottom: 6rem;
   }
   #activite {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
   #activite_title {
@@ -18,7 +20,7 @@
   }
 
   #article_photo_big {
-    width: 30rem;
+    width: 54rem;
     height: 39rem;
     border-radius: 1rem 1rem 0 0;
     object-fit: cover;
@@ -58,7 +60,6 @@
     justify-content: space-between;
     align-items: center;
     margin-left: 4rem;
-    margin-right: 4rem;
   }
 
   .activite_article_bloc_small_2 {
@@ -71,6 +72,7 @@
 
   .activite_article_big {
     height: 45rem;
+    margin-bottom: 5rem;
     box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
     border-radius: 1rem 1rem 1rem 1rem;
     cursor: pointer;
@@ -84,7 +86,8 @@
   }
 
   .activite_article_small_2 {
-    height: 16rem;
+    height: 17rem;
+    margin-bottom: 5rem;
     box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
     border-radius: 1rem 1rem 1rem 1rem;
     cursor: pointer;
@@ -99,6 +102,7 @@
 
   .activite_article_small_4 {
     height: 20rem;
+    margin-bottom: 5rem;
     box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
     border-radius: 1rem 1rem 1rem 1rem;
     cursor: pointer;
