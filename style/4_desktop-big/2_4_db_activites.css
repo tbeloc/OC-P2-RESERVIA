@@ -1,117 +1,18 @@
 /* Laptop / Desktop  Big */
 @media screen and (min-width: 1440px) {
-  #main_section_bloc_2 {
-    display: flex;
+  .main_section_bloc_2 {
     width: 133rem;
-    flex-direction: column;
-    margin-top: 8rem;
-    margin-bottom: 6rem;
-  }
-  #activite {
-    display: flex;
-    justify-content: space-between;
-  }
-  #activite_title {
-    font-weight: bold;
-    font-size: 2.2rem;
-    margin-bottom: 2.5rem;
   }
 
-  #article_photo_big {
+  .article_photo_big {
     width: 30rem;
-    height: 39rem;
-    border-radius: 1rem 1rem 0 0;
-    object-fit: cover;
-  }
-
-  #article_photo_small_1 {
-    width: 30rem;
-    height: 18rem;
-    border-radius: 1rem 1rem 0 0;
-    object-fit: cover;
-  }
-
-  #article_photo_small_2 {
-    width: 30rem;
-    height: 11rem;
-    border-radius: 1rem 1rem 0 0;
-    object-fit: cover;
-  }
-
-  #article_photo_small_3 {
-    width: 30rem;
-    height: 15rem;
-    border-radius: 1rem 1rem 0 0;
-    object-fit: cover;
-  }
-
-  #article_photo_small_4 {
-    width: 30rem;
-    height: 15rem;
-    border-radius: 1rem 1rem 0 0;
-    object-fit: cover;
   }
 
   .activite_article_bloc_small {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 4rem;
     margin-right: 4rem;
-  }
-
-  .activite_article_bloc_small_2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 4rem;
-  }
-
-  .activite_article_big {
-    height: 45rem;
-    box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
-    border-radius: 1rem 1rem 1rem 1rem;
-    cursor: pointer;
-  }
-
-  .activite_article_small_1 {
-    height: 23.5rem;
-    box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
-    border-radius: 1rem 1rem 1rem 1rem;
-    cursor: pointer;
   }
 
   .activite_article_small_2 {
     height: 16rem;
-    box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
-    border-radius: 1rem 1rem 1rem 1rem;
-    cursor: pointer;
-  }
-
-  .activite_article_small_3 {
-    height: 20rem;
-    box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
-    border-radius: 1rem 1rem 1rem 1rem;
-    cursor: pointer;
-  }
-
-  .activite_article_small_4 {
-    height: 20rem;
-    box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
-    border-radius: 1rem 1rem 1rem 1rem;
-    cursor: pointer;
-  }
-
-  #activite_article > div:nth-child(2) {
-    margin-left: 2rem;
-    margin-top: 2rem;
-  }
-
-  .activite_article_p1_big {
-    font-weight: bold;
-    margin-top: 2rem;
-    margin-left: 2rem;
   }
 }

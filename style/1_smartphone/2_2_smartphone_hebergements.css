@@ -1,8 +1,8 @@
 /* Smartphone */
 @media screen and (min-width: 0px) and (max-width: 767px) {
-  .hebergements {
+  /* .hebergements {
     background-color: #f7f7f7;
-  }
+  } */
 
   .hebergements_footer {
     width: 33.5rem;
