@@ -2,13 +2,11 @@
 @media screen and (min-width: 1440px) {
   .footer_superbloc {
     display: flex;
-    /* padding-left: 5.5rem; */
     padding-bottom: 8rem;
     background-color: #f2f2f2;
     margin-left: -5rem;
     margin-right: -5rem;
     padding-top: 5rem;
-    /*! height: 9rem; */
     justify-content: center;
     align-items: center;
   }
@@ -37,10 +35,6 @@
   .footer_bloc {
     width: 133rem;
     display: flex;
-    /*! height: 200rem; */
     justify-content: flex-start;
-    /*! align-items: center; */
-    /*! flex-direction: column; */
-    /*! margin-right: 2rem; */
   }
 }
