@@ -279,6 +279,13 @@ button {
   display: flex;
 }
 
+/*  Footer */
+
+.footer_section ol {
+  list-style: none;
+  padding: 0;
+}
+
 /*  Smartphone & Tablets */
 
 @media screen and (min-width: 0px) and (max-width: 991px) {
@@ -835,7 +842,6 @@ button {
 
   .activite_article_small_4 {
     height: 20rem;
-    margin-bottom: 5rem;
     box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
     border-radius: 1rem 1rem 1rem 1rem;
     cursor: pointer;
