@@ -161,6 +161,47 @@ button {
   border-bottom-right-radius: 1.4rem;
 }
 
+/* Hebergements */
+
+.hebergements_title {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.hebergements_article_bloc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.hebergements_article {
+  border: 0.5rem solid white;
+  border-radius: 1.5rem;
+  background-color: white;
+}
+
+.hebergements_article_photo {
+  height: 11.4rem;
+  border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
+}
+
+.hebergements_article_p1 {
+  font-weight: bold;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.hebergements_article_p2 {
+  font-size: 1.4rem;
+}
+
+.hebergements_article_p3 {
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  color: #0065fc;
+}
+
 /*  Smartphone & Tablets */
 
 @media screen and (min-width: 0px) and (max-width: 991px) {
@@ -279,6 +320,65 @@ button {
   }
   input {
     width: 23rem;
+  }
+
+  /* Hebergements */
+
+  .main_section_bloc_1 {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .hebergements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hebergements_title_bloc {
+    width: 33.5rem;
+  }
+
+  .hebergements_title {
+    padding-top: 4.5rem;
+  }
+
+  .hebergements_article_bloc {
+    width: 33.5rem;
+  }
+
+  .hebergements_article {
+    width: 32.5rem;
+    margin-top: 2.3rem;
+    box-shadow: 0.7rem 0.7rem 0.7rem #f6f6f6;
+  }
+
+  .hebergements_article_photo {
+    width: 32.5rem;
+  }
+
+  .hebergements_article_p1 {
+    margin-left: 2rem;
+  }
+
+  .hebergements_article_p2 {
+    width: 32.5rem;
+    margin-left: 2rem;
+  }
+
+  .hebergements_article_p3 {
+    margin-left: 2rem;
+  }
+
+  .hebergements_footer b {
+    width: 32.5rem;
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  .hebergements_footer {
+    margin-top: 2.8rem;
   }
 }
 
@@ -406,6 +506,66 @@ button {
   }
   input {
     width: 100%;
+  }
+
+  /* Hebergements */
+
+  .main_section_bloc_1 {
+    margin-top: 0.7rem;
+    display: flex;
+  }
+
+  .hebergements {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    width: 88rem;
+  }
+
+  .hebergements_title {
+    margin-left: 3rem;
+  }
+
+  .hebergements_article_bloc {
+    width: 88rem;
+  }
+
+  .hebergements_article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24.6rem;
+    margin-top: 2rem;
+    box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
+    cursor: pointer;
+  }
+
+  .hebergements_article_photo {
+    width: 24.6rem;
+  }
+
+  .hebergements_article_p1 {
+    justify-content: flex-start;
+    width: 24.6rem;
+    margin-left: 1.6rem;
+  }
+
+  .hebergements_article_p2 {
+    width: 24.6rem;
+    margin-left: 1.6rem;
+  }
+
+  .hebergements_article_p3 {
+    width: 24.6rem;
+    margin-left: 1.6rem;
+  }
+
+  .hebergements_footer {
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
   }
 }
 

@@ -1,105 +1,22 @@
 /* Laptop / Desktop  Big */
 @media screen and (min-width: 1440px) {
-  body > main:nth-child(2) {
+  main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  #hebergements {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: #f2f2f2;
-    width: 88rem;
-    /* height: 625px; */
-    border-radius: 2rem;
-    /* margin-right: auto; */
-  }
-
-  /* #hebergements_bloc {
-        padding: 2rem;
-    } */
-
-  #hebergements_title {
-    margin-top: 4rem;
-    margin-left: 3rem;
-    font-weight: bold;
-    font-size: 2.2rem;
-  }
-
-  /* #main_section_bloc_1 {
-        margin-top: 3.7rem;
-        display: flex;
-        justify-content: space-between;
-        /* width: 134rem; */
-
-  #main_section_bloc_1 {
-    margin-top: 0.7rem;
-    display: flex;
+  .main_section_bloc_1 {
     justify-content: space-between;
-    /* align-items: center; */
     width: 133rem;
   }
 
-  .hebergements_article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 24.6rem;
-    margin-top: 2rem;
-    border: 0.5rem solid white;
-    border-radius: 1.5rem;
-    background-color: white;
-    box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
-    cursor: pointer;
+  .hebergements {
+    border-radius: 2rem;
   }
 
-  #hebergements_article_photo {
-    width: 24.6rem;
-    height: 11.4rem;
-    border-radius: 1rem 1rem 0 0;
-    object-fit: cover;
-  }
-
-  #hebergements_article_p1 {
-    justify-content: flex-start;
-    margin-top: 0.6rem;
-    margin-bottom: 0.6rem;
-    font-weight: bold;
-    width: 24.6rem;
-    margin-left: 1.6rem;
-  }
-
-  #hebergements_article_p2 {
-    width: 24.6rem;
-    margin-left: 1.6rem;
-    font-size: 1.4rem;
-  }
-
-  #hebergements_article_p3 {
-    width: 24.6rem;
-    margin-left: 1.6rem;
-    margin-top: 0.6rem;
-    margin-bottom: 0.6rem;
-    color: #0065fc;
-  }
-
-  #hebergements_article_bloc {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 88rem;
-  }
-
-  #hebergements_footer {
-    /* width: 100%; */
-    margin-left: 3rem;
-    /* margin-top: 3.7%;
-        margin-bottom: 3.7%; */
+  .hebergements_title {
     margin-top: 4rem;
-    margin-bottom: 3rem;
   }
 }
