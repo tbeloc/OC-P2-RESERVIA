@@ -254,8 +254,6 @@ button {
 }
 
 .populaires_article_p1 {
-  margin-top: 0.6rem;
-  margin-bottom: 0.6rem;
   font-weight: bold;
 }
 
@@ -496,6 +494,12 @@ button {
     border-radius: 1rem 0 0 1rem;
   }
 
+  .populaires_article_bloc_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
   .populaires_article_bloc_2 b {
     font-weight: normal;
   }
@@ -504,9 +508,9 @@ button {
     width: 15rem;
   }
 
-  .populaires_article_p3 {
-    margin-top: 2.5rem;
-  }
+  /* .populaires_article_p3 {
+    margin-top: 4.5rem;
+  } */
 
   .main_section_bloc_2 {
     margin-top: 3rem;
@@ -755,6 +759,11 @@ button {
 
   .populaires_article_bloc_2 b {
     font-weight: normal;
+  }
+
+  .populaires_article_p1 {
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
   }
 
   /* Activité */
