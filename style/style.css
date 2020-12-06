@@ -288,6 +288,11 @@ button {
   display: flex;
 }
 
+.activite_article_p1_big {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
 /*  Footer */
 
 .footer_section ol {
