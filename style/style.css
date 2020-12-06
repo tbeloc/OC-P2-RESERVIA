@@ -171,6 +171,7 @@ button {
 .hebergements_title {
   font-size: 2.2rem;
   font-weight: bold;
+  margin-bottom: 0;
 }
 
 .hebergements_article_bloc {
@@ -192,6 +193,7 @@ button {
 }
 
 .hebergements_article_p1 {
+  font-size: 1.6rem;
   font-weight: bold;
   margin-top: 0.6rem;
   margin-bottom: 0.6rem;
@@ -221,6 +223,8 @@ button {
 .populaires_title {
   font-weight: bold;
   font-size: 2.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .populaires_title_logo {
@@ -254,7 +258,9 @@ button {
 }
 
 .populaires_article_p1 {
+  font-size: 1.6rem;
   font-weight: bold;
+  margin: 0;
 }
 
 .populaires_article_p2 {
@@ -289,6 +295,9 @@ button {
   padding: 0;
 }
 
+.footer_p {
+  font-size: 1.6rem;
+}
 /*  Smartphone & Tablets */
 
 @media screen and (min-width: 0px) and (max-width: 991px) {
