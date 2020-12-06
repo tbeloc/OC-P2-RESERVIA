@@ -161,6 +161,11 @@ button {
   border-bottom-right-radius: 1.4rem;
 }
 
+.filter_type:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
 /* Hebergements */
 
 .hebergements_title {
