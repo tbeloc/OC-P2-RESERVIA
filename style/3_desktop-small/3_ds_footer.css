@@ -32,7 +32,8 @@
   }
 
   .footer_bloc {
-    width: 133rem;
+    /* width: 133rem; */
+    width: 107rem;
     display: flex;
     justify-content: space-evenly;
     /* align-items: center; */
