@@ -1,0 +1,30 @@
+/* Laptop */
+@media screen and (min-width: 992px) and (max-width: 1439px) {
+  .sub_container_main {
+    width: 88rem;
+  }
+
+  .searchbar {
+    margin-top: 2rem;
+  }
+
+  .filter_type {
+    margin-right: 1.4rem;
+  }
+
+  .info {
+    margin-top: 2.7rem;
+  }
+
+  .filter_bloc_title {
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

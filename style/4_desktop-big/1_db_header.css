@@ -1,0 +1,11 @@
+/* Laptop / Desktop  - Big */
+@media screen and (min-width: 1440px) {
+  .container_common_header {
+    align-items: center;
+    width: 133rem;
+  }
+
+  .nav_housing_desktop {
+    width: 16.2rem;
+  }
+}

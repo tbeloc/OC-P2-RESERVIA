@@ -1,0 +1,10 @@
+/* Laptop / Desktop  - Small */
+@media screen and (min-width: 992px) and (max-width: 1439px) {
+  .container_common_header {
+    width: 88rem;
+  }
+
+  .nav_housing_desktop {
+    width: 15.1rem;
+  }
+}

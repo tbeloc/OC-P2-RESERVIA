@@ -1,0 +1,50 @@
+/* Laptop / Desktop  Big */
+@media screen and (min-width: 1440px) {
+  .populaires {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 4rem;
+  }
+
+  .populaires_title_bloc {
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .populaires_article {
+    width: 33rem;
+    height: 13.4rem;
+    margin-top: 2.3rem;
+    box-shadow: 0.7rem 0.7rem 0.7rem #e8e8e8;
+    cursor: pointer;
+  }
+
+  .populaires_article_photo {
+    width: 12.7rem;
+    height: 13.4rem;
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  .populaires_article_p1 {
+    width: 15rem;
+  }
+
+  .populaires_article_p3 {
+    margin-top: 4.5rem;
+  }
+
+  #populaires_footer {
+    width: 24.6rem;
+    margin-left: 3rem;
+    margin-top: 2.8rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .populaires_article_last {
+    margin-bottom: 3.4rem;
+  }
+}

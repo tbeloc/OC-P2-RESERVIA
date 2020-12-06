@@ -1,0 +1,22 @@
+/* Laptop / Desktop  Big */
+@media screen and (min-width: 1440px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main_section_bloc_1 {
+    justify-content: space-between;
+    width: 133rem;
+  }
+
+  .hebergements {
+    border-radius: 2rem;
+  }
+
+  .hebergements_title {
+    margin-top: 4rem;
+  }
+}

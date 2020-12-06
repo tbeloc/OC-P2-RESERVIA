@@ -1,0 +1,29 @@
+/* Laptop / Desktop  Big */
+@media screen and (min-width: 1440px) {
+  .sub_container_main {
+    width: 133rem;
+  }
+
+  .searchbar {
+    margin-top: 3rem;
+  }
+
+  .info {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .filter_type {
+    margin-right: 2.4rem;
+  }
+
+  .filter_bloc_title {
+    margin-left: 1.3rem;
+    margin-right: 2.2rem;
+  }
+
+  main {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

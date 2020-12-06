@@ -1,0 +1,28 @@
+/* Laptop / Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1439px) {
+  .main_section_bloc_2 {
+    width: 88rem;
+    justify-content: center;
+  }
+
+  .activite {
+    flex-wrap: wrap;
+  }
+
+  .article_photo_big {
+    width: 54rem;
+  }
+
+  .activite_article_big {
+    margin-bottom: 5rem;
+  }
+
+  .activite_article_small_2 {
+    height: 17rem;
+    margin-bottom: 5rem;
+  }
+
+  .activite_article_bloc_small_2 {
+    height: 45rem;
+  }
+}

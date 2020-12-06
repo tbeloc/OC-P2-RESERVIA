@@ -1,0 +1,6 @@
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .hebergements_footer {
+    margin-left: 1rem;
+  }
+}

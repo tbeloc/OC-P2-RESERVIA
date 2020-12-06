@@ -1,0 +1,13 @@
+/* Smartphone */
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .populaires_article {
+    width: 32.5rem;
+  }
+
+  #populaires_footer {
+    width: 24.6rem;
+    margin-left: 3rem;
+    margin-top: 2.8rem;
+    margin-bottom: 3.5rem;
+  }
+}

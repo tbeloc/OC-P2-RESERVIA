@@ -1,0 +1,30 @@
+/* Smartphone */
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .container_search {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+  }
+
+  .searchbar {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+
+  .filter {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .filter_title_mobile {
+    margin-bottom: 1rem;
+  }
+
+  .info {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+  }
+}

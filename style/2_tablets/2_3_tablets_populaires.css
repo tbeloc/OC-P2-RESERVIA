@@ -1,0 +1,13 @@
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .populaires_article {
+    width: 33rem;
+  }
+
+  #populaires_footer {
+    width: 24.6rem;
+    margin-left: 3rem;
+    margin-top: 2.8rem;
+    margin-bottom: 3.5rem;
+  }
+}

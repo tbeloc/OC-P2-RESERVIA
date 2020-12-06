@@ -1,0 +1,18 @@
+/* Laptop / Desktop  Big */
+@media screen and (min-width: 1440px) {
+  .main_section_bloc_2 {
+    width: 133rem;
+  }
+
+  .article_photo_big {
+    width: 30rem;
+  }
+
+  .activite_article_bloc_small {
+    margin-right: 4rem;
+  }
+
+  .activite_article_small_2 {
+    height: 16rem;
+  }
+}

@@ -1,0 +1,22 @@
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container_search {
+    padding: 2rem;
+  }
+
+  .searchbar {
+    padding: 2rem;
+  }
+
+  .filter {
+    padding: 2rem;
+  }
+
+  .filter_title_mobile {
+    margin-bottom: 1.8rem;
+  }
+
+  .info {
+    padding: 2rem;
+  }
+}

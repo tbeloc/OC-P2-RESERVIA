@@ -1,0 +1,16 @@
+/* Laptop / Desktop  */
+@media screen and (min-width: 992px) and (max-width: 1439px) {
+  .main_section_bloc_1 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hebergements {
+    border-radius: 1rem;
+  }
+
+  .hebergements_title {
+    margin-top: 5rem;
+  }
+}
